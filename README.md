@@ -85,6 +85,41 @@ This command runs inference using the specified models on the validation images 
 
 Since we used up to 5 models in our experiment, you can use up to 5 models for the inference for the unique colors of bounding box and compare their prediction results.
 
+## Jupyter Notebook
+
+You can also find notebook version of the models' training processes from this [jupyter notebook file](https://github.com/jinyoonok2/YOLO-SCSA/blob/main/vastai_train_yolov8.ipynb) which was used for Vast.ai.
+
+## Paper Submission
+
+You can find the camera ready version of the paer from [here](https://github.com/jinyoonok2/YOLO-SCSA/blob/main/camera-ready-chapter)
+
+## Architecture Illustration
+
+Basic YOLOv8 architecture illustration:
+![Example Image](./chapter_figures/basic-yolo.png)
+
+Our modified YOLO_SCSA architecture illustration:
+![Example Image](./chapter_figures/scsa-cwm-yolo.png)
+
+SCSA attention module illustration:
+![Example Image](./chapter_figures/scsa-attention.png)
+
+CWM module illustration:
+![Example Image](./chapter_figures/cwm.png)
+
+## Results
+
+Result Table:
+
+Pr Curves for small sized models:
+![Example Image](./chapter_figures/prcurve-small.png)
+
+Pr Curves for medium sized models:
+![Example Image](./chapter_figures/prcurve-medium.png)
+
+Inference Results sample from the small models:
+![Example Image](./chapter_figures/pred-result-small.png)
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
