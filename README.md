@@ -55,17 +55,21 @@ You can find and download our customized HAM10000 dataset and the types of the m
 
 To evaluate a specific trained model, use the `evaluate` task. You need to provide the path to the model and the dataset path.
 
-Example commands:
+Example command:
 
 ```
 python model.py evaluate --model_path "./logs/SCSA(m)/weights/best.pt" --data_path "./datasets/data_local.yaml" --img_size 512
+```
+
+This command evaluates the SCSA(M) model on the dataset specified in `data_local.yaml` with an image size of 512.
+
+Other Examples:
+```
 python model.py evaluate --model_path "./logs/Basic(s)/weights/best.pt" --data_path "./datasets/data_local.yaml" --img_size 512
 python model.py evaluate --model_path "./logs/ResCBAM(s)/weights/best.pt" --data_path "./datasets/data_local.yaml" --img_size 512
 python model.py evaluate --model_path "./logs/SA(s)/weights/best.pt" --data_path "./datasets/data_local.yaml" --img_size 512
 python model.py evaluate --model_path "./logs/CA(m)/weights/best.pt" --data_path "./datasets/data_local.yaml" --img_size 512
 ```
-
-This command evaluates the SCSA(M) model on the dataset specified in `data_local.yaml` with an image size of 512.
 
 ### Inference
 
