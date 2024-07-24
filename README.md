@@ -10,9 +10,9 @@ This repository contains code for training, evaluating, and running inference on
 
 Ensure you have CUDA installed on your system. The CUDA version should match your system's settings. You can install CUDA with the following command:
 
-'''
+```
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
-'''
+```
 
 
 For more information on CUDA installation and to find the appropriate version for your system, visit the [CUDA Local Installation Guide](https://pytorch.org/get-started/locally/).
