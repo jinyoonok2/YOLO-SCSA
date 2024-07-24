@@ -110,6 +110,7 @@ CWM module illustration:
 ## Results
 
 Result Table:
+![Example Image](./chapter_figures/results_table.png)
 
 Pr Curves for small sized models:
 ![Example Image](./chapter_figures/prcurve-small.png)
