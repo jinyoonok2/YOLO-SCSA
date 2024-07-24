@@ -50,7 +50,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-# python model.py train --model_type scsa --data_path "./datasets/data_local.yaml" --img_size 512 --size m
-# python model.py evaluate --model_path "./logs/SCSA(m)/weights/best.pt" --data_path "./datasets/data_local.yaml" --img_size 512
-# python model.py inference --model_paths "./logs/Basic(s)/weights/best.pt" "./logs/SCSA(m)/weights/best.pt" "./logs/ResCBAM(m)/weights/best.pt" --images_path "./datasets/valid/images" --labels_path "./datasets/valid/labels" --img_size 512

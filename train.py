@@ -7,7 +7,7 @@ def get_model_path(model_type, size):
         'basic': f"yolov8{size}.yaml",
         'sa': f"yolov8{size}_SA.yaml",
         'ca': f"yolov8{size}_CA.yaml",
-        'rescbam': f"yolov8{size}_SCSA_CWM.yaml",
+        'rescbam': f"yolov8{size}_ResCBAM.yaml",
         'scsa': f"yolov8{size}_SCSA_CWM.yaml"
     }
     model_file = model_paths.get(model_type.lower())
